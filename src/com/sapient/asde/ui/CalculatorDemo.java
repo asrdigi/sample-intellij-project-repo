@@ -6,6 +6,7 @@ public class CalculatorDemo {
         Calculator calculator= new Calculator();
         System.out.println("10.0+27.67 ="+ calculator.add(10.0,27.67) );
         System.out.println("10.0-27.67 ="+ calculator.sub(10.0,27.67) );
-        System.out.println("10.0-27.67 ="+ calculator.mul(10.0,27.67) );
+        System.out.println("10.0*27.67 ="+ calculator.mul(10.0,27.67) );
+        System.out.println("10.0/27.67 ="+ calculator.div(10.0,27.67) );
     }
 }
