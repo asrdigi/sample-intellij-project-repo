@@ -12,4 +12,8 @@ public class Calculator {
     public double mul(double number1,double number2){
         return number1*number2;
     }
+
+    public double div(double number1,double number2){
+        return number1/number2;
+    }
 }
